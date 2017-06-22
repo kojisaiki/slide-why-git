@@ -140,15 +140,15 @@
 						<img src="./image/03-sprint.gif">
 					</section>
 					<section>
-						SVNとのちがい
-						<h3>リポジトリ全体でコミット</h3>
+						SVNとの考え方のちがい
+						<h3>リポジトリ全体で1つのコミット</h3>
 					</section>
 					<section>
 						<p>
-							SVN: ファイル１つずつコミット
+							SVN: ファイル１つずつに更新履歴
 						</p>
 						<p>
-							Git: リポジトリ全体でコミット
+							Git: リポジトリ全体で１つの更新履歴
 						</p>
 						<span class="fragment" style="color:#f00">不便？デメリット？</span>
 					</section>
@@ -159,28 +159,44 @@
 						<p>ファイル1つでもコミットできる</p>
 						<p class="fragment">⇒自分のプログラム変更だけ終わったらコミットする</p>
 						<p class="fragment">⇒既存の他のプログラムがエラーになる</p>
-						<p class="fragment" style="color: #f00">⇒犯人捜しが始まる</p>
+						<p class="fragment" style="color: #f00">⇒どのファイルのコミットでエラーになったかわからない</p>
 						<img src="./image/whoscode.jpg" class="fragment">
+					</section>
+					<section>
+						<p>さぁ不具合の原因がわかったぞ！</p>
+						<p class="fragment">あのファイルを古くして</p>
+						<p class="fragment">このフォルダのうちこのファイルとこのファイルは最新のままでよくて</p>
+						<p class="fragment">いつの間にか削除されたファイルを復元して</p>
+						<img src="https://rr.img.naver.jp/mig?src=http%3A%2F%2Fimgcc.naver.jp%2Fkaze%2Fmission%2FUSER%2F20120413%2F14%2F176924%2F29%2F680x850x4e37f02507e760b18ef2913e.jpg%2F300%2F600&twidth=300&theight=600&qlt=80&res_format=jpg&op=r" class="fragment">
 					</section>
 					<section>
 						<h3>こんなLinux使いたい？</h3>
 					</section>
 					<section>
 						<p>リポジトリ全体でコミット</p>
-						<p class="fragment">コミット単位でアプリケーションとして成り立つ</p>
+						<p class="fragment">⇒純粋なアプリケーションの世代管理</p>
 						<p class="fragment">⇒コミット毎にプログラム全体を意識する</p>
 						<p class="fragment" style="color: #f00">⇒プログラマの責任能力が向上する</p>
 					</section>
 					<section>
+						<p>さぁ不具合の原因がわかったぞ！</p>
+						<p class="fragment">⇒コミットを取り除く（打ち消しコミットの作成）</p>
+						<p class="fragment" style="color: #f00">⇒おわり</p>
+					</section>
+					<section>
 						<p>リポジトリ全体でコミット</p>
 						<p>コミット単位でアプリケーションが成り立つ</p>
-						<p class="fragment">⇒コミットをトリガーとしてテスト・ビルドが検証できる</p>
-						<p class="fragment" style="color: #f00">⇒純粋なアプリケーションの世代管理</p>
+						<p class="fragment">⇒コミットごとにテスト・ビルドができるんじゃね？</p>
+					</section>
+					<section>
+						ようこそCIの世界へ・・・
+						<img src="https://www.splunk.com/content/dam/splunk-blogs/images/2016/11/jenkins-stickers.png">
+						<img src="https://cdn.travis-ci.org/images/logos/TravisCI-Mascot-1-20feeadb48fc2492ba741d89cb5a5c8a.png">
 					</section>
 					<section>
 						<h3>What Git?</h3>
 						<h3>一人一人の能力を向上させる！</h3>
-						早くからアプリケーションを成り立たせ易い。
+						自動化を活用すれば一人一人の生産性も向上させる！
 					</section>
 				</section>
 
@@ -191,7 +207,7 @@
 					<section>
 						<h2>先人に習へ</h2>
 						<p>
-							=> プラクティス
+							⇒ プラクティス
 						</p>
 						<ul>
 							<li>Git Flow</li>
@@ -213,13 +229,16 @@
 						</P>
 					</section>
 					<section>
+						<img src="./image/pr.png">
+					</section>
+					<section>
 						ほかにも・・・
 						<img src="./image/branch_practice.png">
 					</section>
 					<section>
 						<h3>How Git?</h3>
-						<h3>体制・アプリケーションにあわせて自由にできる！</h3>
-						ここはGitに慣れてからかな？
+						<h3>世界中にプラクティスがある！</h3>
+						Gitに慣れてたら是非試してみましょう。
 					</section>
 				</section>
 
@@ -238,7 +257,7 @@
 						</p>
 						<p>
 							HOW GIT?
-							<h3>体制・アプリケーションにあわせて自由にできる！</h3>
+							<h3>世界中にプラクティスがある！</h3>
 						</p>
 					</section>
 					<section>
